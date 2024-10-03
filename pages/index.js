@@ -36,14 +36,14 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m Harshaj an Web developer based in India!
+        Hello, I&apos;m Harshaj an Software Development Engineer based in Bengaluru,India!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Harshaj Parihar
           </Heading>
-          <p>Web Developer</p>
+          <p>Software Development Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -77,19 +77,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Harshaj is a final year undergrad student 2023 batch from Medi-Caps University,Indore
-          and a web developer based in Indore with a passion for building digital services/stuff he wants.
+          Harshaj is a Software Development Engineer with over a year of experience based in Bengaluru, India. 
+          He is passionate about creating innovative digital solutions and continuously enhancing his skills across various technologies and Solving complex problems and not only getting restricted to a technology or domain
           He has a knack When not online, he loves hanging out and travel else you will see him in badminton court.
-          <p>
-          Apart from development works,he is also working on Data Structures and Algorithms and have solved more than 250 Coding questions on &nbsp;
-          <NextLink href="https://leetcode.com/harshajparihar" passHref scroll={false}>
-            <Link>LeetCode</Link>
-          </NextLink>
-          &nbsp; and &nbsp;
-          <NextLink href="https://auth.geeksforgeeks.org/user/harshajparihar/practice/" passHref scroll={false}>
-            <Link>GeeksForGeeks</Link>
-          </NextLink>.
-          </p>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -105,21 +95,21 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2017</BioYear>
-          Completed Class 10th
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Completed Class 12th
-        </BioSection>
-        <BioSection>
           <BioYear>Jun 2021 to Aug 2021</BioYear>
           Worked as a Web Developer Intern at Dream Choice Inc.
         </BioSection>
         <BioSection>
-          <BioYear>Aug 2019 to Present</BioYear>
-          Ongoing 4 year Bachelor&apos;s Program(B.Tech) in the Computer Science and Engineering
+          <BioYear>Aug 2019 to June 2024</BioYear>
+          Bachelor&apos;s Program(B.Tech) in the Computer Science and Engineering
           at Medi-Caps University,Indore.
+        </BioSection>
+        <BioSection>
+          <BioYear>July 2022 to Aug 2022</BioYear>
+          Research Intern at BARC(Bhabha Atomic Research Centre)
+        </BioSection>
+          <BioSection>
+          <BioYear>Jan 2023 to Current</BioYear>
+        Software Development Engineer at FinacPlus - Toorak Capital Partners
         </BioSection>
       </Section>
 
@@ -149,7 +139,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://drive.google.com/file/d/1FXNeWkOD2zxMvyS8k2rJjkvkRY0Th-cI/view" target="_blank">
+            <Link href="https://drive.google.com/file/d/1IMvX5FGfVA3IbQfpRbhDeJ4dfcCwF4l0/view?usp=sharing" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
